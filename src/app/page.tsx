@@ -9,7 +9,7 @@ export default function Home() {
       <Navbar />
 
       {/* Main content */}
-      <main className="flex-1 flex flex-col items-center justify-center p-24 space-y-12">
+      <main className="flex-1 flex flex-col items-center justify-center p-8 sm:p-12 md:p-24 space-y-8 sm:space-y-10 md:space-y-12 w-full">
         {/* Include HeaderSection */}
         <HeaderSection />
 
